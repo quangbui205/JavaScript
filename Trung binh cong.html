@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<form>
+    <script>
+        let inputVatLy,inputHoahoc, inputToan, Sum, Tb;
+        inputVatLy = prompt("Nhap diem mon Vat ly:");
+        inputHoahoc= prompt("Nhap diem mon Hoa Hoc");
+        inputToan = prompt("Nhap diem mon Toan");
+        let VatLy = parseFloat(inputVatLy);
+        let Hoahoc = Number(inputHoahoc);
+        let Toan = +inputToan;
+        Sum = VatLy+Hoahoc+Toan;
+        Tb = Sum/3;
+        document.write("Tong diem 3 mon la:" + Sum);
+        document.write("<br/>");
+        document.write("Trung binh cong 3 mon la: " + Tb);
+
+    </script>
+</form>
+</body>
+</html>
